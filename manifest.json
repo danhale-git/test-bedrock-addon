@@ -1,0 +1,32 @@
+{
+    "format_version": 2,
+    "metadata": {
+        "authors": [
+            "Dan Hale"
+        ],
+        "url": "https://github.com/danhale-git/test-bedrock-addon",
+        "license": "TBD"
+    },
+    "header": {
+        "name": "testBP",
+        "description": "Testing behaviour pack things.",
+        "uuid": "ed96ccf7-453f-48b2-94fc-0a6a84731744",
+        "version": [0, 0, 1],
+        "min_engine_version": [1, 14, 0]
+    },
+    "modules": [
+        {
+            "description": "Hello World behavior pack module",
+            "type": "data",
+            "uuid": "1ff47f16-bff7-4a00-82a5-b435d748c698",
+            "version": [0, 0, 1]
+        },
+        {
+            "description": "Hello World client scripts module",
+            "type": "client_data",
+            "uuid": "25d35910-0ef1-4e26-913e-d6b717967bd0",
+            "version": [0, 0, 1]
+        }
+    ],
+    "dependencies": []
+}
